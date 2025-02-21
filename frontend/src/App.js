@@ -98,7 +98,7 @@ function Task({ tk, funs }) {
 	let [upDes, setUpDes] = useState(tk.description);
 
 	return (
-		<div className={tk.done == true ? "task task-done" : "task"}>
+		<div className={tk.done === true ? "task task-done" : "task"}>
 			<div className="name-box">{tk.name}</div>
 
 			<div className="inp-box">
